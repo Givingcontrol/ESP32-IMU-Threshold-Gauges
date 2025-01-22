@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>IMU SUM Gauge</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="gauge.min.js"></script>
+  
+  </head>
+  <body>
+    <div class="topnav">
+      <h1>ESP32 IMU Sum Gauges</h1>
+    </div>
+    <div class="content">
+      <div class="card-grid">
+         	
+          <div class="card">
+          <p class="card-title">LinearSum</p>
+          <canvas id="gauge-LinearSum"></canvas>
+        </div>
+          <div class="card">
+          <p class="card-title">LinearSum10</p>
+          <canvas id="gauge-LinearSum10"></canvas>
+        </div>
+          <div class="card">
+          <p class="card-title">LinearSum20</p>
+          <canvas id="gauge-LinearSum20"></canvas>
+        </div>
+          <div class="card">
+          <p class="card-title">LinearSum30</p>
+          <canvas id="gauge-LinearSum30"></canvas>
+        </div>
+          <div class="card">
+          <p class="card-title">LinearSum40</p>
+          <canvas id="gauge-LinearSum40"></canvas>
+        </div>
+          <div class="card">
+          <p class="card-title">LinearSum50</p>
+          <canvas id="gauge-LinearSum50"></canvas>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
